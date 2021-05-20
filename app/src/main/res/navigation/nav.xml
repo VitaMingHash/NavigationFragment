@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/aFragment">
+
+
+
+    <fragment
+        android:id="@+id/aFragment"
+        android:name="cn.bcepd.pad.test.fragment.AFragment"
+        android:label="AFragment"
+        tools:layout="@layout/fragment_a"></fragment>
+    <fragment
+        android:id="@+id/bFragment"
+        android:name="cn.bcepd.pad.test.fragment.BFragment"
+        android:label="BFragment"
+        tools:layout="@layout/fragment_b"></fragment>
+    <fragment
+        android:id="@+id/cFragment"
+        android:name="cn.bcepd.pad.test.fragment.CFragment"
+        android:label="CFragment"
+        tools:layout="@layout/fragment_c"></fragment>
+
+    <action
+        android:id="@+id/to_BFragment"
+        app:destination="@id/bFragment" />
+    <action
+        android:id="@+id/to_CFragment"
+        app:destination="@id/cFragment" />
+</navigation>
