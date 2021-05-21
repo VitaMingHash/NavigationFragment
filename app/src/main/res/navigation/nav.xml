@@ -9,17 +9,17 @@
 
     <fragment
         android:id="@+id/aFragment"
-        android:name="cn.bcepd.pad.test.fragment.AFragment"
+        android:name="cn.bcepd.pad.navigationfragment.fragment.AFragment"
         android:label="AFragment"
         tools:layout="@layout/fragment_a"></fragment>
     <fragment
         android:id="@+id/bFragment"
-        android:name="cn.bcepd.pad.test.fragment.BFragment"
+        android:name="cn.bcepd.pad.navigationfragment.fragment.BFragment"
         android:label="BFragment"
         tools:layout="@layout/fragment_b"></fragment>
     <fragment
         android:id="@+id/cFragment"
-        android:name="cn.bcepd.pad.test.fragment.CFragment"
+        android:name="cn.bcepd.pad.navigationfragment.fragment.CFragment"
         android:label="CFragment"
         tools:layout="@layout/fragment_c"></fragment>
 
